@@ -4,5 +4,5 @@ public class Cliente {
 
 	String nome;
 	String sobrenome;
-	String cpf;
+	int cpf;
 }
