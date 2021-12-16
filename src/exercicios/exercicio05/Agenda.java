@@ -15,7 +15,6 @@ public class Agenda {
 			listaPessoa.add(new Pessoa(nome, idade, altura));
 			contador++;
 		}
-
 	}
 
 	public int buscaPessoa(String nome) {
@@ -25,8 +24,8 @@ public class Agenda {
 
 		for (int i = 0; i <= listaPessoa.size(); i++) {
 			if (listaPessoa.contains(nome)) {
+				System.out.println("oi");
 				posicao = i;
-				break;
 			}
 		}
 		return posicao;
@@ -40,13 +39,11 @@ public class Agenda {
 			if (index == i) {
 				System.out.println(listaPessoa.get(i));
 			}
-
 		}
-
 	}
 
 	void imprimeAgenda() {
-		System.out.println(listaPessoa);
+		System.out.println(toString(listaPessoa));
 	}
 
 	void removePessoa(String nome) {
