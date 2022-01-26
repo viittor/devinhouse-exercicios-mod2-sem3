@@ -43,7 +43,7 @@ public class Agenda {
 	}
 
 	void imprimeAgenda() {
-		System.out.println(toString(listaPessoa));
+		System.out.println(listaPessoa);
 	}
 
 	void removePessoa(String nome) {
