@@ -20,7 +20,7 @@ public class Pessoa {
 		this.idade = idade;
 	}
 
-	void fazAniversário() {
+	void fazAniversario() {
 		idade++;
 	}
 	

@@ -6,7 +6,7 @@ public class TestaPessoa {
 		Pessoa pessoa = new Pessoa();
 		
 		System.out.println(pessoa.getIdade());
-		pessoa.fazAniversário();
+		pessoa.fazAniversario();
 		System.out.println(pessoa.getIdade());
 		
 	}
