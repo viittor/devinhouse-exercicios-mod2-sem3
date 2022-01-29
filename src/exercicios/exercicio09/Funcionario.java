@@ -1,4 +1,4 @@
-package exercicios.exercicio9;
+package exercicios.exercicio09;
 
 public abstract class Funcionario {
 

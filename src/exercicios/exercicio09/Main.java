@@ -1,4 +1,4 @@
-package exercicios.exercicio9;
+package exercicios.exercicio09;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class Main {
 		Comum comum = new Comum(1000.00, "Comum");
 		Horista horista = new Horista(1200.00, "Horista");
 		Concursado concursado = new Concursado(1500.00, "Concursado");
-		ArrayList<String> funcionarios = new ArrayList();
+		ArrayList<String> funcionarios = new ArrayList<String>();
 		double somaSalario = 0;
 
 		System.out.println("|----------------------------------|\n" + "| Sistema De Folha de Pagamento    |\n"
@@ -57,6 +57,7 @@ public class Main {
 				break;
 			case 0:
 				System.out.print("Encerrando sistema...");
+				System.exit(0);
 				break;
 			default:
 				break;
